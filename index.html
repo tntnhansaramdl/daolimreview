@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="1건당 1만원 20인부터 시작 가능한 블로그 체험단, 전담 매니저가 1:1로 배정되어 키워드 선별 및 포스팅 가이드 제작부터 블로거 모집, 캠페인 진행, 결과보고 레포트까지 빠르고 합리적으로 진행합니다">
+    <meta name="keywords" content="블로그체험단, 체험단, 블로그후기, 맛집후기, 후기체험단, 리뷰체험단, 브랜드체험단, 제품체험단, 블로그마케팅, 리뷰, 후기, 제품후기, 제품리뷰, 후기마케팅, 리뷰마케팅, 블로그키워드, 블로그캠페인">
+    
+    <meta property="og:title" content="다올림리뷰 | 최저가 블로그 체험단">
+    <meta property="og:description" content="1건당 1만원 20인부터 시작 가능한 블로그 체험단, 전담 매니저가 1:1로 배정되어 키워드 선별 및 포스팅 가이드 제작부터 블로거 모집, 캠페인 진행, 결과보고 레포트까지 빠르고 합리적으로 진행합니다">
+    <meta property="og:image" content="/img/thumbnail.jpg">
+
+    <title>다올림리뷰 | 최저가 블로그 체험단</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/fav/site.webmanifest">
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#101010">
+    <meta name="msapplication-TileColor" content="#101010">
+    <meta name="theme-color" content="#101010">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"/>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="logo" onClick="javascript:window.scrollTo(0,0)">
+                <img src="img/logo.png" alt="다올림리뷰 로고 이미지">
+                <div>다올림리뷰</div>
+            </div>
+            <a href="tel:010-8689-3499" target="_blank">빠른상담 010-8689-3499</a>
+        </div>
+    </header>
+
+    <section class="line-banner">
+        <div class="section-wrapper">
+            <p>✨블로그 포스팅 1건당 1만원, 20만원으로 시작!✨</p>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="section-wrapper"  data-aos="fade-up">
+            <h1>똑같은 체험단<span class="hidden-mo"> 플랫폼</span>이 아닙니다 <br><span class="hidden-mo">저희는 </span><span>전문 블로그 마케터</span>입니다</h1>
+            <h2>전담 매니저가 1:1로 배정되어 키워드 선별 및 포스팅 가이드 제작부터 <br>블로거 모집, 캠페인 진행, 결과보고 레포트까지 빠르고 합리적으로 진행합니다</h2>
+        </div>
+
+        <div class="top-slider" data-aos="fade-left">
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="img/campaign_1.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[서일농원] 서분례 명인 육수분</p>
+                    <p>서분례 명인 육수분 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_2.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[닥터오라클] 레티노타이트닝 비타민A 레티놀 앰플</p>
+                    <p>비타민 A 레티놀 앰플 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_3.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[다비드] 남성활력제 블랙마카</p>
+                    <p>다비드 블랙마카 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_4.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[다비드] 프리미엄 모발케어 비오틴부스터</p>
+                    <p>다비드 비오틴부스터 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_5.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[미스드래곤] 캐모마일 & 와사비 마스크팩</p>
+                    <p>캐모마일 & 와사비 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_6.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[조조수산] 즉석 밀키트</p>
+                    <p>조조수산 즉석 밀키트 랜덤 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_7.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[블랑루스] 마일드 클린 그라인딩 밤</p>
+                    <p>마일드 클린 그라인딩 밤 본품 1개</p>
+                </div>
+            </div>
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="img/campaign_1.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[서일농원] 서분례 명인 육수분</p>
+                    <p>서분례 명인 육수분 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_2.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[닥터오라클] 레티노타이트닝 비타민A 레티놀 앰플</p>
+                    <p>비타민 A 레티놀 앰플 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_3.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[다비드] 남성활력제 블랙마카</p>
+                    <p>다비드 블랙마카 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_4.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[다비드] 프리미엄 모발케어 비오틴부스터</p>
+                    <p>다비드 비오틴부스터 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_5.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[미스드래곤] 캐모마일 & 와사비 마스크팩</p>
+                    <p>캐모마일 & 와사비 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_6.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[조조수산] 즉석 밀키트</p>
+                    <p>조조수산 즉석 밀키트 랜덤 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_7.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[블랑루스] 마일드 클린 그라인딩 밤</p>
+                    <p>마일드 클린 그라인딩 밤 본품 1개</p>
+                </div>
+            </div>
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="img/campaign_1.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[서일농원] 서분례 명인 육수분</p>
+                    <p>서분례 명인 육수분 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_2.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[닥터오라클] 레티노타이트닝 비타민A 레티놀 앰플</p>
+                    <p>비타민 A 레티놀 앰플 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_3.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[다비드] 남성활력제 블랙마카</p>
+                    <p>다비드 블랙마카 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_4.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[다비드] 프리미엄 모발케어 비오틴부스터</p>
+                    <p>다비드 비오틴부스터 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_5.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[미스드래곤] 캐모마일 & 와사비 마스크팩</p>
+                    <p>캐모마일 & 와사비 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_6.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[조조수산] 즉석 밀키트</p>
+                    <p>조조수산 즉석 밀키트 랜덤 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_7.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[블랑루스] 마일드 클린 그라인딩 밤</p>
+                    <p>마일드 클린 그라인딩 밤 본품 1개</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-slider" data-aos="fade-right">
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="img/campaign_8.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[디멜로우] 말티즈 차량용 방향제</p>
+                    <p>말티즈 차량용 방향제 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_9.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[내츄럴코튼] 시그니처 뉴 오가닉 생리대</p>
+                    <p>시그니처 뉴 오가닉 생리대 4종</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_10.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[반트36.5] 블루밍 블루 쿠션</p>
+                    <p>블루밍 블루 쿠션 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_11.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[반트36.5] 에어 터치 씨씨 쿠션</p>
+                    <p>에어 터치 CC 쿠션 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_12.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[모메이코스메틱] 모메이 피어팻 틴트 5종</p>
+                    <p>모메이 피어팻 틴트 랜덤 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_13.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[수지스] 그릴드 닭가슴살 1.8kg</p>
+                    <p>수지스 그릴드 닭가슴살 1.8kg 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_14.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[붐디아다] 나이아신아마이드 앰플</p>
+                    <p>나이아신아마이드 앰플 본품 1개</p>
+                </div>
+                
+            </div>
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="img/campaign_8.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[디멜로우] 말티즈 차량용 방향제</p>
+                    <p>말티즈 차량용 방향제 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_9.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[내츄럴코튼] 시그니처 뉴 오가닉 생리대</p>
+                    <p>시그니처 뉴 오가닉 생리대 4종</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_10.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[반트36.5] 블루밍 블루 쿠션</p>
+                    <p>블루밍 블루 쿠션 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_11.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[반트36.5] 에어 터치 씨씨 쿠션</p>
+                    <p>에어 터치 CC 쿠션 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_12.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[모메이코스메틱] 모메이 피어팻 틴트 5종</p>
+                    <p>모메이 피어팻 틴트 랜덤 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_13.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[수지스] 그릴드 닭가슴살 1.8kg</p>
+                    <p>수지스 그릴드 닭가슴살 1.8kg 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_14.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[붐디아다] 나이아신아마이드 앰플</p>
+                    <p>나이아신아마이드 앰플 본품 1개</p>
+                </div>
+            </div>
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="img/campaign_8.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[디멜로우] 말티즈 차량용 방향제</p>
+                    <p>말티즈 차량용 방향제 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_9.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[내츄럴코튼] 시그니처 뉴 오가닉 생리대</p>
+                    <p>시그니처 뉴 오가닉 생리대 4종</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_10.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[반트36.5] 블루밍 블루 쿠션</p>
+                    <p>블루밍 블루 쿠션 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_11.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[반트36.5] 에어 터치 씨씨 쿠션</p>
+                    <p>에어 터치 CC 쿠션 본품 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_12.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[모메이코스메틱] 모메이 피어팻 틴트 5종</p>
+                    <p>모메이 피어팻 틴트 랜덤 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_13.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[수지스] 그릴드 닭가슴살 1.8kg</p>
+                    <p>수지스 그릴드 닭가슴살 1.8kg 1개</p>
+                </div>
+                <div class="slide">
+                    <img src="img/campaign_14.jpg" alt="블로그 체험단 캠페인용 제품 이미지">
+                    <p>[붐디아다] 나이아신아마이드 앰플</p>
+                    <p>나이아신아마이드 앰플 본품 1개</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="report">
+        <div class="section-wrapper">
+            <h4 data-aos="fade-right">상담하기 전에</h4>
+            <h3 data-aos="fade-right">클릭 한번으로 캠페인 레포트 보기</h3>
+            <a href="https://drive.google.com/file/d/1uqSXUVYtz_1HqAH1jJcHE6NtQYcsKZl0/view?usp=sharing" target="_blank" data-aos="fade-right">
+                <div>
+                    <img src="img/download_icon.png" alt="Download">
+                    <p>캠페인 레포트 보기</p>
+                </div>
+            </a>
+            <img src="img/report.png" alt="Report" data-aos="zoom-in">
+        </div>
+    </section>
+
+    <section class="benefit">
+        <div class="section-wrapper" data-aos="fade-down">
+            <h2>가격부담, 관리 부담 모두 ZERO <br>대표님의 <span>전화 한 통</span>이면 됩니다</h2>
+            <h2>부담은 모두 ZERO <br><span>전화 한 통</span>이면 됩니다</h2>
+            <div class="benefit-top">
+                <div>
+                    <h3>시장 최저가로 <br><span>가격 부담 ZERO</span></h3>
+                    <p>블로그 포스팅 1건당 1만원 <br>최소 20인 이상부터
+                        <br><br>20만원으로 시작 가능한 <br>합리적인 체험단 옵션</p>
+                    <div>01</div>
+                </div>
+                <div>
+                    <h3>전담 매니저로 <br><span>관리 부담 ZERO</span></h3>
+                    <p>전담 매니저가 1:1로 배정되어 <br>계약부터 캠페인, 결과보고까지
+                        <br><br>대표님이 신경 쓰셔야 할 <br>관리 리소스는 없습니다</p>
+                    <div>02</div>
+                </div>
+            </div>
+        </div>
+        <div class="section-wrapper" data-aos="fade-right">
+            <div class="benefit-price">
+                <div class="benefit-detail">
+                    <h4>시장 최저가로 가격 부담 ZERO</h4>
+                    <h3>블로그 포스팅 1건당 1만원, <br>20만원으로 가능한 체험단</h3>
+                    <p>블로그 체험단을 해보고는 싶지만, <br>제품이나 서비스 제공도 부담스러운데 <br>포스팅 건당 가격도 비싸서 힘드셨죠?
+                        <br><br>저희는 블로그 포스팅 1건당 1만원으로 <br>최소 20만원으로도 시작 가능한 <br>합리적인 체험단 옵션을 진행합니다!</p>
+                </div>
+                <img src="img/price_image.jpg" alt="시장 최저가로 가격 부담 ZERO">
+            </div>
+        </div>
+        <div class="section-wrapper" data-aos="fade-left">
+            <div class="benefit-management">
+                <img src="img/management_image.jpg" alt="전담 매니저로 관리 부담 ZERO">
+                <div class="benefit-detail">
+                    <h4>전담 매니저로 관리 부담 ZERO</h4>
+                    <h3>1:1로 배정된 전담 매니저가 <br>계약부터 캠페인, 결과보고까지</h3>
+                    <p>키워드 선별 및 포스팅 가이드 제작부터 <br>블로거 모집, 캠페인 진행, 결과확인까지 <br>생각만 하셔도 할 일이 너무 많죠?
+                        <br><br>저희는 전담 매니저를 1:1로 배정하여 <br>계약, 캠페인 진행, 결과보고와 같은 <br>번거로운 일들을 알아서 해드립니다!</p>
+                </div>
+                <img src="img/management_image.jpg" alt="전담 매니저로 관리 부담 ZERO">
+            </div>
+        </div>
+    </section>
+
+    <section class="campaign">
+        <div class="section-wrapper" data-aos="zoom-in-up">
+            <h2>지금 이 순간에도 <br><span>캠페인은 계속</span>됩니다</h2>
+        </div>
+        <div class="swiper mySwiper" data-aos="fade-left">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/campaign_1.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[서일농원] 서분례 명인 육수분</p>
+                    <p>서분례 명인 육수분 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>68명 신청</span> / 30명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_2.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[닥터오라클] 레티노타이트닝 비타민A 레티놀 앰플</p>
+                    <p>비타민A 레티놀 앰플 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>72명 신청</span> / 20명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_3.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[다비드] 남성활력제 블랙마카</p>
+                    <p>다비드 블랙마카 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>88명 신청</span> / 40명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_4.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[다비드] 프리미엄 모발케어 비오틴부스터</p>
+                    <p>다비드 비오틴부스터 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>95명 신청</span> / 50명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_5.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[미스드래곤] 캐모마일 & 와사비 마스크팩</p>
+                    <p>캐모마일 & 와사비 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>105명 신청</span> / 30명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_6.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[조조수산] 즉석 밀키트</p>
+                    <p>조조수산 밀키트 랜덤 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>49명 신청</span> / 25명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_7.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[블랑루스] 마일드 클린 그라인딩 밤</p>
+                    <p>마일드 클린 그라인딩 밤 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>62명 신청</span> / 30명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_8.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[디멜로우] 말티즈 차량용 방향제</p>
+                    <p>말티즈 차량용 방향제 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>93명 신청</span> / 40명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_9.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[내츄럴코튼] 시그니처 뉴 오가닉 생리대</p>
+                    <p>시그니처 뉴 오가닉 생리대 4종</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>52명 신청</span> / 20명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_10.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[반트36.5] 블루밍 블루 쿠션</p>
+                    <p>블루밍 블루 쿠션 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>43명 신청</span> / 25명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_11.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[반트36.5] 에어 터치 씨씨 쿠션</p>
+                    <p>에어 터치 CC 쿠션 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>65명 신청</span> / 25명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_12.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[모메이코스메틱] 모메이 피어팻 틴트 5종</p>
+                    <p>모메이 피어팻 틴트 랜덤 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>115명 신청</span> / 30명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_13.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[수지스] 그릴드 닭가슴살 1.8kg</p>
+                    <p>수지스 그릴드 닭가슴살 1.8kg 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>78명 신청</span> / 20명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/campaign_14.jpg" alt="블로그 체험단 캠페인용 이미지">
+                    <div class="category">Blog</div>
+                    <p>[붐디아다] 나이아신아마이드 앰플</p>
+                    <p>나이아신아마이드 앰플 본품 1개</p>
+                    <hr>
+                    <div class="recruit">
+                        <p><span>51명 신청</span> / 25명 모집</p>
+                        <div>
+                            <img src="img/over.png" alt="Closed">
+                            <p>모집 마감</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="section-wrapper">
+            <h2 data-aos="fade-down"><span>진짜 블로그 리뷰들</span>이 <br>대표님에게 포스팅됩니다</h2>
+            <div class="review-wrapper" data-aos="fade-down">
+                <div class="review">
+                    <img src="img/blog_1.jpg" alt="체험단 블로그 게시글 이미지">
+                    <div>
+                        <img src="img/author_1.jpg" alt="체험단 블로그 작성자 이미지">
+                        <p>상탱구리</p>
+                    </div>
+                    <p>서일농원 서분례육수분으로 감칠맛 나는 된장찌개 만들기</p>
+                    <hr>
+                    <p>간편하다고 여겨왔던 코인육수와 다시팩 육수! 많지 않은 원재료와 기나긴 육수 추출시간, 그리고 다른 요리에 활동할 수 없을 뿐더러 휴대와 보관 또한 불편했었죠. 서분례 명인의 노하우와 특급 레시피로 탄생한 간편 만능 천연 육수가루(육수분)로 그동안의 불편함을 없애 보겠습니다.</p>
+                </div>
+                <div class="review">
+                    <img src="img/blog_2.jpg" alt="체험단 블로그 게시글 이미지">
+                    <div>
+                        <img src="img/author_2.jpg" alt="체험단 블로그 작성자 이미지">
+                        <p>낭만나그네</p>
+                    </div>
+                    <p>40대 남자 선물 다비드 블랙마카 남성활력제</p>
+                    <hr>
+                    <p>제품을 제조하는데 사용한 원재료들의 모두 투명하게 공개되어 있었는데요. 남성의 건강과 활력에 도움을 줄 수 있는 블랙마카분말과 함께 스테미너에 좋은 L-아르기닌이 30% 함유되어 있으며 그밖에 아연, 셀레늄, 비타민 B, 흑마늘 등이 함유되었어요.  와이즈 활력제 부분 21년 1월 기준으로 1위를 하고 있는 제품으로 많은 남성들이 찾는 제품이라고 해요.</p>
+                </div>
+                <div class="review">
+                    <img src="img/blog_3.jpg" alt="체험단 블로그 게시글 이미지">
+                    <div>
+                        <img src="img/author_3.jpg" alt="체험단 블로그 작성자 이미지">
+                        <p>딴듀</p>
+                    </div>
+                    <p>저자극 여드름마스크팩 비건 와사비 수딩 마스크팩</p>
+                    <hr>
+                    <p>와사비 추출물이 함유된 마스크팩인데 되게 독특하죠?! 컬로도 와사비색인 초록색으로 패키지를 만들었더라구요 비건인증된 와사비 수딩 마스크팩! FSC인증 친환경 종이와 소이잉크를 사용했어요 사람과 자연 모두 생각하는 클린뷰티 브랜드! 수많은 브랜드와 함께 한 마스크팩 전문 CEO의 이름을 내건 브랜드 Miss Dragon</p>
+                </div>
+                <div class="review">
+                    <img src="img/blog_4.jpg" alt="체험단 블로그 게시글 이미지">
+                    <div>
+                        <img src="img/author_4.jpg" alt="체험단 블로그 작성자 이미지">
+                        <p>어반차차</p>
+                    </div>
+                    <p>디멜로우 명품 차량방향제 다크실버 클린코튼 솔직한 한달 사용 후기</p>
+                    <hr>
+                    <p>제가 한달동안이나 실사용했는데 석고방향제 타입이라서 액체 방향제 처럼 차에 흐른다거나 엎지를 위험이 없어서 참 좋다구 생각이 들었습니다 맨 처음에 택배로 받아 보았을때 이렇게 깔끔한 화이트톤 상자에 포장되어서 배달이 왔더라구요 ㅎㅎ 방향제 향기는 여러가지였어요 클린코튼 블랙체리 레몬라벤더 no5 하와이안피치 피톤치드 등</p>
+                </div>
+                <div class="review">
+                    <img src="img/blog_5.jpg" alt="체험단 블로그 게시글 이미지">
+                    <div>
+                        <img src="img/author_5.jpg" alt="체험단 블로그 작성자 이미지">
+                        <p>란디</p>
+                    </div>
+                    <p>코스트코 수지스 그릴드 닭가슴살 시식 후기/ 닭가슴살 요리 소개 ~</p>
+                    <hr>
+                    <p>코스트코에 장을 보러 갔다가 늘 보기만 하고 지나쳤던 &lt;수지스 닭가슴살&gt;을 데려와봤다. 샐러드를 집에서 자주 해 먹다 보니 아무래도 단백질원으로 닭가슴살을 넣어서 먹는 게 나을 것 같아 고민하다가 데려왔다. 언젠가 이**에서 낱개로 판매하는 훈제 닭가슴살을 데려와 먹어본 적이 있는데 그때 닭 비린내가 확~ 나서 그냥 버렸던 기억이 나서 이 제품을 구입할 때 살짝 망설여졌지만 코스트코이니까 믿고 한번 구입해 볼까 싶어 데려와서 너무나 잘 먹었다.</p>
+                </div>
+                <div class="review">
+                    <img src="img/blog_6.jpg" alt="체험단 블로그 게시글 이미지">
+                    <div>
+                        <img src="img/author_6.jpg" alt="체험단 블로그 작성자 이미지">
+                        <p>두롱이</p>
+                    </div>
+                    <p>붐디아다 앰플 저자극 진정케어로 민감성 피부를 순하게 잠재워요</p>
+                    <hr>
+                    <p>여름엔 확실히 크림보다 앰플입니다! 가벼운 제형이라서 피부에 답답함이 확실히 덜하고 그래서인지 평소 끈적임을 싫어하는 남편도 잘 사용하는 앰플.  붐디아다에서는 미백/수분/탄력/진정 총 4종류의 앰플을 출시해 각 피부 타입에 맞춰 구입할 수 있도록 했는데, 본인 피부 타입이나 고민에 따라 최소 2종 이상을 구비해두고 그때그때 상황에 맞는 앰플을 홈케어로 처방해주면 꽤 효과적일 것 같다는 생각이 들어요🙂</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="section-wrapper">
+            <h2 data-aos="fade-up">누구보다 <span>쉽고 빠르게</span> <br>도와드리겠습니다</h2>
+            <div class="step-wrapper" data-aos="fade-up">
+                <div class="step">
+                    <img src="img/process_1.jpg" alt="블로그 체험단 캠페인 진행 이미지">
+                    <p>01</p>
+                    <p>상담 신청</p>
+                    <p>블로그 마케팅에 대한 전반적인 상담을 진행합니다.</p>
+                </div>
+                <div class="step">
+                    <img src="img/process_2.jpg" alt="블로그 체험단 캠페인 진행 이미지">
+                    <p>02</p>
+                    <p>1:1 전담 매니저 배정 및 계약</p>
+                    <p>전담 매니저가 직접 연락하여 구체적인 캠페인 진행과 관련된 컨설팅을 진행하고, 계약을 체결합니다.</p>
+                </div>
+                <div class="step">
+                    <img src="img/process_3.jpg" alt="블로그 체험단 캠페인 진행 이미지">
+                    <p>03</p>
+                    <p>키워드 선별 및 포스팅 가이드 제작</p>
+                    <p>전담 매니저가 대표님의 제품 및 서비스를 분석하여 키워드를 선별하고, 블로거들에게 공유할 포스팅 가이드를 제작합니다.</p>
+                </div>
+                <div class="step">
+                    <img src="img/process_4.jpg" alt="블로그 체험단 캠페인 진행 이미지">
+                    <p>04</p>
+                    <p>블로거 모집</p>
+                    <p>캠페인에 참여할 블로거를 모집합니다. 블로거가 초과 모집될 경우 일일 방문자 수, 누적 게시글 수, 관련 카테고리 게시글 수 등을 분석하여 선정합니다.</p>
+                </div>
+                <div class="step">
+                    <img src="img/process_5.jpg" alt="블로그 체험단 캠페인 진행 이미지">
+                    <p>05</p>
+                    <p>캠페인 진행</p>
+                    <p>캠페인을 진행합니다. 블로거와의 소통은 전적으로 전담 매니저가 담당하며, 중간 진행 상황에 대해 주기적으로 대표님께 공유드립니다.</p>
+                </div>
+                <div class="step">
+                    <img src="img/process_6.jpg" alt="블로그 체험단 캠페인 진행 이미지">
+                    <p>06</p>
+                    <p>결과 레포트 제공 및 피드백</p>
+                    <p>캠페인 진행 결과를 담은 레포트를 대표님께 제공합니다. 또한 해당 지표들을 바탕으로 추가적인 캠페인 운영 시 참고하시면 좋을 피드백을 전달드립니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="section-wrapper">
+            <h3 data-aos="fade-right">연락처를 남겨주시면 <br><span>친절하게 상담해드립니다</span></h3>
+            <div data-aos="zoom-in">
+                <form id="form">
+                    <div class="field">
+                        <input type="text" name="name" id="name" placeholder="업체명">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="phone" id="phone" placeholder="담당자 전화번호">
+                    </div>
+                    <input type="submit" id="button" value="상담하기 →">
+                </form>
+                <div class="field">
+                    <input type="checkbox" name="privacy" id="privacy" checked>
+                    <label for="privacy">개인정보 처리방침에 동의합니다 <span>(목적) 유선상담 | (항목) 업체명, 전화번호 | (보유 및 이용기간) 최초 동의 시로부터 6개월</span></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <div>
+                <div onClick="javascript:window.scrollTo(0,0)">
+                    <img src="img/logo.png" alt="다올림리뷰 로고 이미지">
+                    <div>다올림리뷰</div>
+                </div>
+                <a href="tel:010-8689-3499" target="_blank">빠른상담 010-8689-3499</a>
+            </div>
+            <p>상호: 주식회사 튼튼한사람들 | 대표: 오지현 | 사업자등록번호: 130-88-02160 | 주소: 서울특별시 강남구 봉은사로37길 22, 2층 | 이메일: contact@tnsa.co.kr
+                <br>Copyright 2023. TNTNHANSARAMDL All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

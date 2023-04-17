@@ -56,6 +56,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: var(--color-white);
 }
 
 section{
@@ -813,6 +814,7 @@ header{
     padding-top: var(--margin-80);
     padding-bottom: var(--margin-80);
     background: linear-gradient(135deg, var(--color-highlight), var(--color-highlight-sub));
+    z-index: 101;
 }
 
 .contact > .section-wrapper{
@@ -925,6 +927,8 @@ footer{
     justify-content: center;
     padding-top: var(--margin-80);
     padding-bottom: var(--margin-80);
+    background-color: var(--color-white);
+    z-index: 101;
 }
 
 .footer-wrapper{
@@ -986,6 +990,45 @@ footer{
     word-break: keep-all;
 }
 
+.fixed-contact{
+    position: fixed;
+    right: var(--margin-80);
+    bottom: var(--margin-80);
+    width: var(--section-gap);
+    height: var(--section-gap);
+    min-width: 120px;
+    min-height: 120px;
+    animation-name: move-updown;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 100;
+}
+
+.fixed-contact > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Pretendard Variable', sans-serif;
+    font-size: var(--font-xs);
+    font-weight: 800;
+    color: var(--color-white);
+    border-radius: 50%;
+    background-color: var(--color-black);
+}
+
+@keyframes move-updown{
+    from{
+        bottom: var(--margin-80);
+    }
+
+    to{
+        bottom: var(--section-gap);
+    }
+}
+
 @media screen and (max-width: 1320px) {
 
     .report > .section-wrapper > img{
@@ -1010,6 +1053,10 @@ footer{
         grid-template-columns: 1fr;
         row-gap: var(--margin-40);
         column-gap: var(--margin-40);
+    }
+
+    .fixed-contact{
+        right: var(--padding-side);
     }
 }
 
@@ -1054,7 +1101,6 @@ footer{
     .review-wrapper, .step-wrapper{
         grid-template-columns: 1fr 1fr;
     }
-    
 }
 
 @media screen and (max-width: 768px) {

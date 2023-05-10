@@ -933,7 +933,7 @@ footer{
 .footer-wrapper{
     max-width: 1320px;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -963,7 +963,6 @@ footer{
     opacity: 0.45;
     margin-right: 6px;
 }
-
 
 .footer-wrapper > div > div > div{
     font-family: 'Pretendard Variable', sans-serif;

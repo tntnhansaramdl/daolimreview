@@ -1002,6 +1002,7 @@ footer{
     height: var(--section-gap);
     min-width: 120px;
     min-height: 120px;
+    -webkit-transform: translateZ(0);
     animation-name: move-updown;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;

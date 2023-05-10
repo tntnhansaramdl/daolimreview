@@ -814,7 +814,6 @@ header{
     padding-top: var(--margin-80);
     padding-bottom: var(--margin-80);
     background: linear-gradient(135deg, var(--color-highlight), var(--color-highlight-sub));
-    z-index: 101;
 }
 
 .contact > .section-wrapper{
@@ -838,7 +837,7 @@ header{
 
 .contact > .section-wrapper > div{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -928,7 +927,6 @@ footer{
     padding-top: var(--margin-80);
     padding-bottom: var(--margin-80);
     background-color: var(--color-white);
-    z-index: 101;
 }
 
 .footer-wrapper{

@@ -908,6 +908,8 @@ header{
     accent-color: var(--color-black);
     outline: none;
     border: none;
+    -webkit-transform: scale(0.5,0.5); 
+    padding: 0px;
     margin-right: 8px;
 }
 

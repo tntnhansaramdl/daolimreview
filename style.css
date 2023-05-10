@@ -44,7 +44,6 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    transform: translate3d(0,0,0);
 }
 
 body {
@@ -58,7 +57,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--color-white);
-    transform: translate3d(0,0,0);
 }
 
 section{
@@ -74,7 +72,7 @@ section{
 .section-wrapper{
     max-width: 1320px;
     width: 100%;
-    height: ;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

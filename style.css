@@ -487,7 +487,7 @@ header{
 .swiper {
     max-width: 1920px;
     width: 100%;
-    height: 100%;
+    height: auto;
     margin-top: var(--margin-80);
     padding-left: var(--padding-side);
     padding-right: var(--padding-side);
@@ -499,7 +499,7 @@ header{
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: var(--color-white);
     border-radius: 8px;
     border: 1px solid var(--color-line);
@@ -652,7 +652,7 @@ header{
 
 .review{
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 8px;
     border: 1px solid var(--color-line);
     box-shadow: var(--box-shadow);
@@ -764,7 +764,7 @@ header{
 
 .step{
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 8px;
     border: 1px solid var(--color-line);
     box-shadow: var(--box-shadow);
@@ -936,7 +936,7 @@ footer{
 .footer-wrapper{
     max-width: 1320px;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

@@ -44,6 +44,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    transform: translate3d(0,0,0);
 }
 
 body {
@@ -57,6 +58,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--color-white);
+    transform: translate3d(0,0,0);
 }
 
 section{
@@ -1002,7 +1004,6 @@ footer{
     height: var(--section-gap);
     min-width: 120px;
     min-height: 120px;
-    -webkit-transform: translateZ(0);
     animation-name: move-updown;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;

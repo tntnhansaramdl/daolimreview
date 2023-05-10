@@ -816,12 +816,6 @@ header{
     background: linear-gradient(135deg, var(--color-highlight), var(--color-highlight-sub));
 }
 
-.contact2 > .section-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: var(--margin-40);
-}
-
 .contact2 > .section-wrapper > h3{
     font-family: 'Pretendard Variable', sans-serif;
     font-size: var(--font-l);

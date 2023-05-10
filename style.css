@@ -838,7 +838,7 @@ header{
 
 .contact > .section-wrapper > div{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -988,6 +988,10 @@ footer{
     line-height: 150%;
     margin-top: var(--margin-40);
     word-break: keep-all;
+}
+
+.footer-wrapper > p a{
+    color: var(--color-gray);
 }
 
 .fixed-contact{

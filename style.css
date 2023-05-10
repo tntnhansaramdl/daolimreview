@@ -69,7 +69,7 @@ section{
     padding-bottom: var(--section-gap);
 }
 
-.section-wrapper{
+.section-wrapper:not(.contact > .section-wrapper){
     max-width: 1320px;
     width: 100%;
     height: 100%;
@@ -817,6 +817,9 @@ header{
 }
 
 .contact > .section-wrapper{
+    max-width: 1320px;
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: var(--margin-40);

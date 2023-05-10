@@ -322,6 +322,7 @@ header{
 .report > .section-wrapper > img{
     position: absolute;
     top: 0px;
+    bottom: auto;
     left: auto;
     right: 20px;
     width: 620px;
@@ -403,6 +404,7 @@ header{
 .benefit-top > div > div{
     position: absolute;
     top: 0px;
+    bottom: auto;
     left: auto;
     right: var(--margin-40);
     font-family: 'Pretendard Variable', sans-serif;

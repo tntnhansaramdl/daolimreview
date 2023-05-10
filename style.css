@@ -322,8 +322,6 @@ header{
 .report > .section-wrapper > img{
     position: absolute;
     top: 0px;
-    bottom: auto;
-    left: auto;
     right: 20px;
     width: 620px;
     object-fit: contain;
@@ -404,8 +402,6 @@ header{
 .benefit-top > div > div{
     position: absolute;
     top: 0px;
-    bottom: auto;
-    left: auto;
     right: var(--margin-40);
     font-family: 'Pretendard Variable', sans-serif;
     font-size: 256px;
@@ -489,7 +485,7 @@ header{
 .swiper {
     max-width: 1920px;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-top: var(--margin-80);
     padding-left: var(--padding-side);
     padding-right: var(--padding-side);
@@ -501,7 +497,7 @@ header{
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    height: auto;
+    height: 100%;
     background: var(--color-white);
     border-radius: 8px;
     border: 1px solid var(--color-line);
@@ -654,7 +650,7 @@ header{
 
 .review{
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 8px;
     border: 1px solid var(--color-line);
     box-shadow: var(--box-shadow);
@@ -766,7 +762,7 @@ header{
 
 .step{
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 8px;
     border: 1px solid var(--color-line);
     box-shadow: var(--box-shadow);
@@ -851,7 +847,6 @@ header{
 
 #form{
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -939,7 +934,7 @@ footer{
 .footer-wrapper{
     max-width: 1320px;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

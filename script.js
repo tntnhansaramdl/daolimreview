@@ -31,7 +31,7 @@ var swiper = new Swiper(".mySwiper", {
 AOS.init({
   duration: 1000,
   once: true,
-  anchorPlacement: "top-center",
+  anchorPlacement: "top-top",
 });
 
 emailjs.init('VeOi1Yzh1wjdvk5uI')
